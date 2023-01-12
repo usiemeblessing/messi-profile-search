@@ -28,6 +28,8 @@ hr {
 .primary-logo {
 	margin-left: 30px;
 	cursor: pointer;
+	width: 92px;
+	height: 30px;
 }
 
 .search-bar {
@@ -70,11 +72,10 @@ hr {
 	border-radius: 50%;
 }
 
-.tools-container,
-.long-middle-container {
+.tools-container {
 	width: 670px;
 	margin-left: 170px;
-	/* border: 2px solid black; */
+	border: 2px solid black;
 	margin-bottom: 20px;
 }
 
@@ -89,6 +90,7 @@ hr {
 .tools-links {
 	cursor: pointer;
 	font-size: 14px;
+	line-height: 16px;
 	text-decoration: none;
 }
 
@@ -104,10 +106,64 @@ li {
 	margin-right: 240px;
 }
 
+.results-stats {
+	font-family: Google Sans, arial, sans-serif;
+	margin-left: 170px;
+	color: #70757a;
+	line-height: 43px;
+	font-size: 14px;
+}
+
+.messi-overview {
+	width: 670px;
+	margin-left: 172px;
+	border: 2px solid black;
+	display: flex;
+}
+
+.messi-headshot {
+	border-radius: 8px;
+	width: 42px;
+	height: 56px;
+}
+
+.head-shot-and-name {
+	display: flex;
+}
+
 /* after top section horizontal rule */
 
+.article-aside {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	gap: 55px;
+	border: 2px solid black;
+	/* background-color: #70757a; */
+	margin-top: 5px;
+}
+
+.article {
+	width: 670px;
+	margin-left: 90px;
+	border: 2px solid black;
+}
+
+.aside {
+	width: 350px;
+	height: 100px;
+	margin-top: 20px;
+	border: 2px solid black;
+}
+
 .messi-four-images {
-	text-align: center;
+	margin: 0;
+	/* text-align: center; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 3px;
 	margin-top: 20px;
 	margin-bottom: 40px;
 }
@@ -122,15 +178,16 @@ li {
 	border-bottom-right-radius: 12px;
 }
 
-.headline-wrapper {
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
+.top-stories {
+	font-size: 22px;
+	margin-bottom: 10px;
+	color: #202124;
 }
 
-.top-stories {
-	font-size: 20px;
-	margin-bottom: 10px;
+.headline-wrapper {
+	display: flex;
+	/* align-items: center; */
+	/* justify-content: center; */
 }
 
 .top-story-section,
@@ -144,7 +201,7 @@ li {
 }
 
 .top-story-tag {
-	font-size: 16px;
+	font-size: 18px;
 	margin-bottom: 10px;
 	text-decoration: none;
 	color: #202124;
@@ -188,6 +245,7 @@ li {
 
 .mbappe-absent {
 	display: flex;
+	gap: 20px;
 }
 
 .viral {
